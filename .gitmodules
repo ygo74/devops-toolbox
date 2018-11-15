@@ -1,3 +1,6 @@
 [submodule "cloud/azure"]
 	path = cloud/azure
 	url = https://github.com/ygo74/azure
+[submodule "automation/ansible"]
+	path = automation/ansible
+	url = https://github.com/ygo74/ansible
