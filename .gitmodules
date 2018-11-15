@@ -1,0 +1,3 @@
+[submodule "cloud/azure"]
+	path = cloud/azure
+	url = https://github.com/ygo74/azure
