@@ -4,3 +4,9 @@
 [submodule "automation/ansible"]
 	path = automation/ansible
 	url = https://github.com/ygo74/ansible
+[submodule "containers/docker"]
+	path = containers/docker
+	url = https://github.com/ygo74/docker
+[submodule "containers/kubernetes"]
+	path = containers/kubernetes
+	url = https://github.com/ygo74/kubernetes
