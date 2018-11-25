@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/add-base-url: "true"
+  creationTimestamp: 2018-11-22T22:35:41Z
+  generation: 1
+  name: jenkins-route
+  namespace: default
+  resourceVersion: "409538"
+  selfLink: /apis/extensions/v1beta1/namespaces/default/ingresses/jenkins-route
+  uid: f11ddd40-eea6-11e8-bd04-32d56fc5a116
+spec:
+  rules:
+  - http:
+      paths:
+      - backend:
+          serviceName: aks-helloworld
+          servicePort: 80
+        path: /
+      - backend:
+          serviceName: jenkins
+          servicePort: 8080
+        path: /jenkins
+status:
+  loadBalancer:
+    ingress:
+    - {}
