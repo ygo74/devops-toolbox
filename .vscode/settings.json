@@ -1,4 +1,5 @@
 {
     "ansible.credentialsConfigured": true,
-    "ansible.cloudShellConfirmed": true
+    "ansible.cloudShellConfirmed": true,
+    "ansible.customOptions": "-i cloud/azure/ansible"
 }
