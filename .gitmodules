@@ -10,3 +10,6 @@
 [submodule "containers/kubernetes"]
 	path = containers/kubernetes
 	url = https://github.com/ygo74/kubernetes
+[submodule "automation/yeoman/generator-ansible-project"]
+	path = automation/yeoman/generator-ansible-project
+	url = https://github.com/ygo74/generator-ansible-project.git

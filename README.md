@@ -28,3 +28,10 @@ $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($SecurePass
 $UnsecurePassword = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
 $UnsecurePassword
 ```
+## Git tips
+
+### SubModules
+Add submodule :  
+```bash
+git submodule add https://github.com/ygo74/generator-ansible-project.git
+```
