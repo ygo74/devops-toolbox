@@ -1,4 +1,9 @@
 Source : [Generator authoring](https://yeoman.io/authoring/index.html)  
+
+```cmd
+npm install -g yo
+```
+
 Create a directory generator-[generator name]  
 
 Create a package.json file :
