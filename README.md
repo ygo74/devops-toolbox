@@ -35,3 +35,9 @@ Add submodule :
 ```bash
 git submodule add https://github.com/ygo74/generator-ansible-project.git
 ```
+
+## Build badges
+https://shields.io/
+
+## Github Release process
+https://github.com/datawire/branch-release-sandbox/blob/master/README.md

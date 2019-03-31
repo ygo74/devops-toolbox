@@ -22,8 +22,17 @@ npm link
 ```
 
 
-Install Dependencies
+##Install Dependencies
 ```cmd
 npm install yosay
 npm install mkdirp
+```
+
+##Install Development Dependencies
+```cmd
+npm install --save-dev yeoman-assert
+npm install --save-dev yeoman-test
+npm install --save-dev mocha
+npm install --save-dev nyc
+npm install --save-dev vsts-coverage-styles
 ```
