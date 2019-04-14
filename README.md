@@ -36,6 +36,10 @@ Add submodule :
 git submodule add https://github.com/ygo74/generator-ansible-project.git
 ```
 
+### delete tags
+git tag -d v0.0.12
+git push origin :refs/tags/v0.0.12
+
 ## Build badges
 https://shields.io/
 

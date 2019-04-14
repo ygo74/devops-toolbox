@@ -2,5 +2,6 @@
     "ansible.credentialsConfigured": true,
     "ansible.cloudShellConfirmed": true,
     "ansible.customOptions": "-i cloud/azure/ansible",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "trailing-spaces.trimOnSave": true
 }
