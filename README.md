@@ -12,6 +12,8 @@ Supported Cloud providers :
 ## Visual studio Code Tips :
 * Mardown Preview : CTLRL+SHIFT+V
 * Markdwon Quick Reference : https://en.support.wordpress.com/markdown-quick-reference/
+* Github emoji : https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+* Microsoft contributor advisory : https://docs.microsoft.com/contribute
 
 ## Visual Studio Code environment
 
