@@ -3,5 +3,8 @@
     "ansible.cloudShellConfirmed": true,
     "ansible.customOptions": "-i cloud/azure/ansible",
     "git.ignoreLimitWarning": true,
-    "trailing-spaces.trimOnSave": true
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
 }

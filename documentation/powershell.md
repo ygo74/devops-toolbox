@@ -21,3 +21,14 @@ winrm set winrm/config/service/auth @{Basic="true"}
 
 ### Supress rules
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidDefaultValueForMandatoryParameter", "" )]
+
+## Persistent Modify environment variable 
+
+```Powershell
+# Get current value
+$CurrentValue = [Environment]::GetEnvironmentVariable("PSModulePath", "Machine")
+# Modify current value with your folder
+[Environment]::SetEnvironmentVariable("PSModulePath", $CurrentValue + ";D:\devel\github\devops-toolbox\cloud\azure\powershell\modules\MESF_Azure", "Machine")
+```
+> :warning:  
+> __Restart your development editor or powershell session__
