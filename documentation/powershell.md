@@ -32,3 +32,10 @@ $CurrentValue = [Environment]::GetEnvironmentVariable("PSModulePath", "Machine")
 ```
 > :warning:  
 > __Restart your development editor or powershell session__
+
+## Get last boot time
+
+```Powershell
+# Get last boot time
+Get-CimInstance -ClassName win32_operatingsystem | select csname, lastbootuptime  
+```
