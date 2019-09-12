@@ -1,6 +1,8 @@
 # Environment Development configuration
 ## Visual studio code
 
+
+
 ### extensions :
 - Trailing Spaces : Only to see spaces on the files  
 ```json
@@ -15,4 +17,7 @@
         "files.trimTrailingWhitespace": false
     }
 ```  
-
+- scrollback buffer :
+```json
+    "terminal.integrated.scrollback": 100000
+```
